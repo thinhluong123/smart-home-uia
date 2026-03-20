@@ -1,0 +1,48 @@
+.topbar {
+  height: 48px;
+  min-height: 48px;
+  background: #fff;
+  border-bottom: 3px solid #000;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  gap: 14px;
+  flex-shrink: 0;
+  z-index: 90;
+}
+
+.topbar-title {
+  font-family: var(--font-head, "Space Grotesk", sans-serif);
+  font-size: 15px;
+  font-weight: 800;
+  color: #000;
+  letter-spacing: -0.3px;
+}
+
+.topbar-sub {
+  font-size: 11px;
+  color: #888;
+  font-weight: 500;
+  margin-left: 2px;
+}
+
+.topbar-spacer {
+  flex: 1;
+}
+
+.topbar-clock {
+  font-family: var(--font-head, "Space Grotesk", sans-serif);
+  font-size: 12px;
+  font-weight: 700;
+  background: #f0f0eb;
+  border: 2px solid #000;
+  padding: 3px 10px;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+.topbar-divider {
+  width: 2px;
+  height: 20px;
+  background: #000;
+}
