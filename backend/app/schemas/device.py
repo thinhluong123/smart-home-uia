@@ -18,7 +18,7 @@ class DeviceUpdate(BaseModel):
     is_active: Optional[bool]
 
 class DeviceResponse(BaseModel):
-    id: int
+    device_id: int
     device_name: str
     device_type: str
     pin_number: int
